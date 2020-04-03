@@ -1,10 +1,10 @@
 package br.com.ciandt.mshen;
 
-public class Soma implements OperacaoMatematica {
+public class Subtracao implements OperacaoMatematica {
 
     @Override
     public int calcula(int num1, int num2) {
-	return num1 + num2;
+	return num1 - num2;
     }
 
 }

@@ -2,7 +2,7 @@ package br.com.ciandt.mshen;
 
 import java.util.Scanner;
 
-public class OperaçãoMatematicaMain {
+public class OperacaoMatematicaMain {
 
     public static void main(String[] args) {
 	Scanner sc = new Scanner(System.in);
@@ -17,23 +17,19 @@ public class OperaçãoMatematicaMain {
 	switch (operação) {
 	case "Soma":
 	    Soma soma = new Soma();
-	    soma.calcula(num1, num2);
-	    System.out.println(soma.getResultado());
+	    System.out.println(soma.calcula(num1, num2));
 	    break;
 	case "Subtração":
-	    Subtração subtrai = new Subtração();
-	    subtrai.calcula(num1, num2);
-	    System.out.println(subtrai.getResultado());
+	    Subtracao subtrai = new Subtracao();
+	    System.out.println(subtrai.calcula(num1, num2));
 	    break;
 	case "Multiplicação":
-	    Multiplicação multiplica = new Multiplicação();
-	    multiplica.calcula(num1, num2);
-	    System.out.println(multiplica.getResultado());
+	    Multiplicacao multiplica = new Multiplicacao();
+	    System.out.println(multiplica.calcula(num1, num2));
 	    break;
 	case "Divisão":
-	    Divisão divide = new Divisão();
-	    divide.calcula(num1, num2);
-	    System.out.println(divide.getResultado());
+	    Divisao divide = new Divisao();
+	    System.out.println(divide.calcula(num1, num2));
 	    break;
 	default:
 	    break;
