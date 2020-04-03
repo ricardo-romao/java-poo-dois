@@ -1,6 +1,6 @@
 package br.com.ciandt.gian73;
 
-public class Divisão implements OperacaoMatematica {
+public class Divisao implements OperacaoMatematica {
     private double resultado;
 
     public double getResultado() {

@@ -1,6 +1,6 @@
 package br.com.ciandt.gian73;
 
-public class Subtração implements OperacaoMatematica {
+public class Subtracao implements OperacaoMatematica {
     private double resultado;
 
     public double getResultado() {
