@@ -1,15 +1,18 @@
 package br.com.ciandt.gian73;
 
 public class Multiplicacao implements OperacaoMatematica {
-    private double resultado;
+    private int resultado;
 
-    public double getResultado() {
+    public int getResultado() {
 	return resultado;
     }
 
     @Override
-    public void calcula(int num1, int num2) {
+    public int calcula(int num1, int num2) {
+	
 	resultado = num1 * num2;
+	return resultado;
     }
+    
 }
 	

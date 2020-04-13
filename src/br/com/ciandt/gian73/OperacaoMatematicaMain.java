@@ -8,7 +8,7 @@ public class OperacaoMatematicaMain {
 	@SuppressWarnings("resource")
 	Scanner sc = new Scanner(System.in);
 
-	System.out.println("Digite a opera��o matematica:");
+	System.out.println("Digite a operacao matematica:");
 	String operacao = sc.next();
 
 	System.out.println("Digite 2 numeros");
