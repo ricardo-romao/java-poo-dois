@@ -18,23 +18,23 @@ public class OperacaoMatematicaMain {
 	switch (operacao) {
 	case "Som":
 	    Soma som = new Soma();
-	    som.calcula(num1, num2);
-	    System.out.println(som.getResultado());
+
+	    System.out.println(som.calcula(num1, num2));
 	    break;
 	case "Sub":
 	    Subtracao subtrai = new Subtracao();
-	    subtrai.calcula(num1, num2);
-	    System.out.println(subtrai.getResultado());
+
+	    System.out.println(subtrai.calcula(num1, num2));
 	    break;
 	case "Mult":
 	    Multiplicacao multiplica = new Multiplicacao();
-	    multiplica.calcula(num1, num2);
-	    System.out.println(multiplica.getResultado());
+
+	    System.out.println(multiplica.calcula(num1, num2));
 	    break;
 	case "Div":
 	    Divisao divide = new Divisao();
-	    divide.calcula(num1, num2);
-	    System.out.println(divide.getResultado());
+
+	    System.out.println(divide.calcula(num1, num2));
 	    break;
 	default:
 	    break;
